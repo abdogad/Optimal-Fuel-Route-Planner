@@ -49,7 +49,7 @@ map.html
 
 # Keep essential data files
 !fuel_prices_dataset.csv
-!app/data/final.csv
+!mapApp-1\app\data\final.csv
 
 # Misc
 .DS_Store
