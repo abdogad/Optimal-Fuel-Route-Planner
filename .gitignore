@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+.env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Project specific temporary files
+map.html
+*.csv
+
+# Keep essential data files
+!fuel_prices_dataset.csv
+!app/data/final.csv
+
+# Misc
+.DS_Store
+.env
