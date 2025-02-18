@@ -1,11 +1,10 @@
 # Optimal Fuel Route Planner
 
-A Django-based application that helps users find the most cost-effective route for fueling their vehicles across the USA. The application considers real-time fuel prices and optimizes the route to minimize total fuel costs.
+A Django-based application that helps users find the most cost-effective route for fueling their vehicles across the USA. The application considers fuel prices and optimizes the route to minimize total fuel costs.
 
 ## Features
 
 - Route optimization between any two locations in the USA
-- Real-time fuel price consideration
 - Interactive map visualization with:
   - Optimized route display
   - Recommended gas stations for refueling
@@ -97,7 +96,7 @@ Response:
 
 The project uses a fuel prices dataset containing:
 - Gas station locations
-- Current fuel prices
+- fuel prices
 - Station details
 
 ## License
