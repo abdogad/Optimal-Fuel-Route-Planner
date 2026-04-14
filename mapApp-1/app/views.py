@@ -250,7 +250,7 @@ def route_api(request):
         
         
         # Get gas stations along the route
-        csv_file_path = 'app/data/final.csv'
+        csv_file_path = './app/data/final.csv'
         gas_stations = get_gas_stations_on_route(route_data['geometry']['coordinates'], csv_file_path, distances)
         
         gas_stations.append({
